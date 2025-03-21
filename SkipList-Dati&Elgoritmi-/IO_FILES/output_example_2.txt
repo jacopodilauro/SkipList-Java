@@ -1,0 +1,5 @@
+13 0.25
+4 bike 1, 9 woman 3, 16 car 2, 48 dog 1, 124 car 1
+9 woman
+2 man 1, 9 woman 3, 10 bike 1, 16 car 2, 48 dog 1, 124 car 1
+0.25 6 8 4.25

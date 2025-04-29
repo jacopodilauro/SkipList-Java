@@ -7,12 +7,18 @@ Skip Lists are an alternative to balanced trees for efficient searching, inserti
 It includes:
 - A **Basic Version** without generics, designed for simplicity, which only accepts `Integer` values.
 - A **Templates Version** using `Node<T>`, allowing flexibility in handling different data types.
-- Example **input/output files** for testing.
-- **Performance tests** on datasets of up to 100,000 elements, using different values of the `alpha` probability parameter:
-  - `"alphaEfficiencyTest_10K_1"` has **10k elements** and uses `alpha = 0.0`.
-  - `"alphaEfficiencyTest_10K_2"` has **10k elements** and uses `alpha = 0.25`.
-  - `"alphaEfficiencyTest_10K_3"` has **10k elements** and uses `alpha = 0.5`. (the best efficiency)
-  (...)
+- Example **input/output files** for functional testing:
+  - `input_example_1.txt` and `input_example_2.txt` – contain basic operations.
+  - `output_example_1.txt` and `output_example_2.txt` – show the expected output for the above inputs.
+- **Performance test datasets** using different values of the `alpha` probability parameter:
+  - `alphaEfficiencyTest_10K_1.txt` – 10,000 elements, `alpha = 0.0`
+  - `alphaEfficiencyTest_10K_2.txt` – 10,000 elements, `alpha = 0.25`
+  - `alphaEfficiencyTest_10K_3.txt` – 10,000 elements, `alpha = 0.5`
+  - `alphaEfficiencyTest_100K_1.txt` – 100,000 elements, `alpha = 0.0`
+  - `alphaEfficiencyTest_100K_2.txt` – 100,000 elements, `alpha = 0.25`
+  - `alphaEfficiencyTest_100K_3.txt` – 100,000 elements, `alpha = 0.5`
+
+
 
 ## 📚 What is a Skip List?
 

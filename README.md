@@ -59,6 +59,10 @@ SkipList-Java/
    ```bash
    java SkipList_Base ../IO_FILES/input_example_1.txt
    ```
+   o
+   ```bash
+   java SkipList_Base ../IO_FILES/input_example_1.txt
+   ```
 
 ## 🧩 Supported Operations
 

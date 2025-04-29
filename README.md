@@ -68,7 +68,6 @@ SkipList-Java/
    ```bash
    java SkipList_Base ../IO_FILES/input_example_1.txt
    ```
-   o
    ```bash
    java SkipList_Base ../IO_FILES/input_example_1.txt
    ```
@@ -88,7 +87,21 @@ The `alphaEfficiencyTest/` folder contains datasets used to analyze Skip List ef
 - The average number of traversed nodes per operation.
 - How different alpha values (`0.0`, `0.25`, and `0.5`) impact performance.
 
+## 📄 Documentation
 
+The folder `doc/` contains the **Javadoc documentation** for the `SkipList_Template.java` class and `SkipList_Base.java` class in their respective folders `SkipList_Template/` and `SkipList_Base/`.  
+To view the documentation:
+
+1. Open the file `doc/index.html` in your browser.
+2. Navigate through the methods and class descriptions to understand how the generic Skip List is structured.
+
+The documentation was generated using the standard Java `javadoc` tool:
+
+```bash
+javadoc -d doc SkipList_Template.java
+```
+
+--- 
 ## @Author
 
 Developed by **Jacopo** for the study of data structures and algorithms in Italy, Univeristy of Padua.

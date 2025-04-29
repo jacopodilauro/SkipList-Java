@@ -1,16 +1,18 @@
-# SkipList in Java – Data Structures & Algorithms
+# Skip List in Java – Data Structures & Algorithms
 
 This project provides two implementations of the **Skip List** data structure in Java. It is designed to help users understand how Skip Lists work and how different values of the `alpha` probability parameter affect performance.
 
-Skip Lists are an alternative to balanced trees for efficient searching, insertion, and deletion. This project allows users to **experiment with different alpha values** (`0.0`, `0.25`, and `0.5`) to observe their impact on efficiency.
+Skip Lists are a probabilistic alternative to balanced trees, offering efficient search, insertion, and deletion operations. This project allows users to **experiment with different alpha values** (`0.0`, `0.25`, and `0.5`) to observe their impact on efficiency and structure.
+
+## ✨ Features
 
 It includes:
-- A **Basic Version** without generics, designed for simplicity, which only accepts `Integer` values.
-- A **Templates Version** using `Node<T>`, allowing flexibility in handling different data types.
+- A **Basic Version** without generics, designed for simplicity — accepts only `Integer` values.
+- A **Generic Version** (`Node<T>`) for flexible use with various data types.
 - Example **input/output files** for functional testing:
-  - `input_example_1.txt` and `input_example_2.txt` – contain basic operations.
-  - `output_example_1.txt` and `output_example_2.txt` – show the expected output for the above inputs.
-- **Performance test datasets** using different values of the `alpha` probability parameter:
+  - `input_example_1.txt` and `input_example_2.txt` – demonstrate basic operations.
+  - `output_example_1.txt` and `output_example_2.txt` – expected results for the inputs above.
+- **Performance test datasets** to evaluate the impact of the `alpha` probability parameter:
   - `alphaEfficiencyTest_10K_1.txt` – 10,000 elements, `alpha = 0.0`
   - `alphaEfficiencyTest_10K_2.txt` – 10,000 elements, `alpha = 0.25`
   - `alphaEfficiencyTest_10K_3.txt` – 10,000 elements, `alpha = 0.5`
@@ -18,6 +20,7 @@ It includes:
   - `alphaEfficiencyTest_100K_2.txt` – 100,000 elements, `alpha = 0.25`
   - `alphaEfficiencyTest_100K_3.txt` – 100,000 elements, `alpha = 0.5`
 
+---
 
 
 ## 📚 What is a Skip List?
